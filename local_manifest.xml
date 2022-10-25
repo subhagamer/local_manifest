@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-    <remote name="dt" fetch="https://github.com/subhagamer/android_device_realme_RMX3031" />
-    <remote name="vendor" fetch="https://github.com/subhagamer/proprietary_vendor_realme_RMX3031" />
-    <remote name="kernel" fetch="https://github.com/subhagamer/android_kernel_realme_RMX3031" /> 
-    <!-- DT,Vendor and kernel -->
-    <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="dt" revision="twelve" /> 
-    <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="vendor" revision="twelve" /> 
-    <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="kernel" revision="12.1" />
-  </manifest>
+<manifest>
+<!-- Device Trees -->
+  <project path="device/realme/RMX3031" name="subhagamer/android_device_realme_RMX3031" remote="github" revision="twelve"/>
+  <project path="kernel/realme/RMX3031" name="subhagamer/android_kernel_realme_RMX3031" remote="github" revision="12.1"/>
+  <project path="vendor/realme/RMX3031" name="subhagamer/proprietary_vendor_realme_RMX3031" remote="github" revision="twelve"/>
+</manifest>
