@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device Trees -->
-  <project path="device/realme/RMX3031" name="subhagamer/android_device_realme_RMX3031" remote="github" revision="twelve"/>
-  <project path="kernel/realme/RMX3031" name="subhagamer/android_kernel_realme_RMX3031" remote="github" revision="12.1"/>
-  <project path="vendor/realme/RMX3031" name="subhagamer/proprietary_vendor_realme_RMX3031" remote="github" revision="twelve"/>
+  <project path="device/realme/RMX3031" name="subhagamer/android_device_realme_RMX3031" remote="github" revision="evolution"/>
 </manifest>
